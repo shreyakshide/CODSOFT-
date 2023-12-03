@@ -1,1 +1,23 @@
-
+#include<iostream>
+using namespace std;
+int main()
+{
+	int operation;
+	float a,b;
+	cout<<"Select 1 for addition, 2 for subtraction, 3 for multiplication and 4 for division\n";
+	cin>>operation;
+	cout<<"Enter first number\n";
+	cin>>a;
+	cout<<"Enter second number\n";
+	cin>>b;
+	if(operation==1)
+	cout<<a+b;
+	else if(operation==2)
+	cout<<a-b;
+	else if(operation==3)
+	cout<<a*b;
+	else 
+	cout<<a/b;
+	return 0;
+	
+}
