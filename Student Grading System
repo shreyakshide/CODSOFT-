@@ -1,0 +1,39 @@
+#include<iostream>
+#include<ctime>
+#include<stdio.h>
+#include<string.h>
+#include<cmath>
+#include<cfloat>
+using namespace std;
+int main()
+{
+    float n,sum=0;
+    int b;
+    char grade,x='Z',y,c;
+    string name;
+    cout<<"Enter number of students\n";
+    cin>>n;
+        for(int i=1;i<=n;++i) 
+        {
+        cout<<"Enter the name"
+        <<endl;
+        cin>>name;
+        cout<<"Enter the grade of the student"
+        <<endl;
+        cin>>grade;
+    sum=sum+int(grade);
+    if(int(grade)<int(x))
+    x=grade;
+    else
+    y=grade;
+}
+ float a=sum/n; 
+ b=round(a);
+ c= static_cast<char>(b);
+    cout<<"the average grade is\n";
+    cout<<c;
+	cout<<"\nThe highest grade is\n";
+	cout<<x;
+	cout<<"\nThe lowest grade is\n";
+	cout<<y;
+	}
