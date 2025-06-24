@@ -1,0 +1,17 @@
+x=float(input("enter first number"))
+y=float(input("enter second number"))
+z=input("Enter operation")
+if z=='+':
+    res=x+y
+elif z=='-':
+    res=x-y
+elif z=='*':
+    res=x*y
+elif z=='/':
+    if y!=0:
+        res=x/y
+    else:
+        res="error"
+else:
+    res="invalid"
+print("result",res)
